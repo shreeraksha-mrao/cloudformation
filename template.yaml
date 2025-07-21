@@ -13,7 +13,7 @@ Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-02f3416038bdb17fb  # Amazon Linux 2 for eu-north-1
+      ImageId: ami-09278528675a8d54e
       InstanceType: t3.micro
       KeyName: !Ref KeyName
       SecurityGroupIds:
